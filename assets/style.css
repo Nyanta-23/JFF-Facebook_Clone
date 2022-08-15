@@ -1,0 +1,297 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}s
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* my css */
+
+body{
+    background-color: #eee;
+    
+}
+
+.content{
+    margin: 25px auto 50px;
+    width: 500px;
+}
+
+.title-quotes{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#title{
+    color: #1877F2;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.quote{
+    margin: 15px auto 0;
+    width: 62vw;
+    font-size: 1.9rem;
+}
+
+.login-create{
+    margin: 40px auto 0;
+    background-color: #fff;
+    width: 390px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.login{
+    margin: auto;
+    width: 390px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.input{
+    box-sizing: border-box;
+    width: 93%;
+    height: 50px;
+    padding: 17px 20px;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    outline: #ccc;
+}
+
+.input::placeholder{
+    color: #898F9C;
+}
+
+.buttonColor{
+    background-color: #1877F2;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.buttonColor:hover{
+    background-color: #1561c5;
+}
+
+.input:focus{
+    border: 1px solid #3081ec;
+    
+}
+
+.linkForgot{
+    text-decoration: none;
+    color: #1877F2;
+}
+
+.linkForgot:hover{
+    text-decoration: underline;
+}
+
+.line{
+    width: 90%;
+    margin-top: 20px;
+    border: 1px solid #eaeaea;
+}
+
+.create{
+    box-sizing: border-box;
+    padding-top: 12px;
+    background-color: #29b51c;
+    margin: 15px auto 0;
+    color: #fff;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create:hover{
+    background-color: #249819;
+}
+
+.text-createpage{
+    margin-top: 35px;
+    text-align: center;
+    display: flex;
+    color: #000;
+    justify-content: center;
+}
+
+.text{
+    margin-left: 5px;
+}
+
+.createPage{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.createPage:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-bottom: 5vw;
+}
+
+.language{
+    box-sizing: border-box;
+    padding: 20px 15px 0;
+    text-align: left;
+    margin: auto;
+    width: 90vw;
+
+    /* width: 1080px; for relative*/
+}
+
+
+.language a{
+    margin-left: 8px;
+    margin-top: 3px;
+    font-size: 14px;
+    color: #898F9C;
+    text-decoration: none;
+}
+
+
+.lineFooter{
+    width: 88vw !important;
+}
+
+
+.fiture-symbl{
+    margin: auto;
+    width: 90vw;
+}
+
+
+.listFiture{
+    box-sizing: border-box;
+    margin: 15px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+.listFiture a{
+    margin-left: 11px;
+    margin-top: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #898F9C;
+}
+
+.listFiture a:hover{
+    text-decoration: underline;
+}
+
+.symbFooter{
+    color: #898F9C;
+    font-size: 13px;
+    margin: 50px 0 0 12px;
+}
+
+
+@media screen and (min-width: 899px) {
+    .content{
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-quotes{
+        text-align: left;
+        align-self: center;
+        width: 40vw;
+    }
+
+    .quote{
+        width: 27vw;
+    }
+
+    .login-txtCreatePage{
+        margin-left: 55px;
+        margin-top: 80px;
+    }
+
+    .footer{
+        width: 100%;
+        margin-top: 140px;
+    }
+
+    .language{
+        text-align: left;
+        width: 68vw;
+    }
+
+    .lineFooter{
+        width: 67vw !important;
+    }
+
+    .listFiture{
+        width: 66vw;
+        text-align: left;
+    }
+
+
+    .fiture-symbl{
+        width: 66vw;
+    }
+
+    
+}
